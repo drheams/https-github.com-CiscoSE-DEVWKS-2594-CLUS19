@@ -35,11 +35,10 @@ the content in each directory.
 
 ## Versions
 
-- Ansible : 2.5.5 (tested with 2.5.4)
+- Ansible : 2.8.1
 
-- Python : 3.6.5
+- Python : 3.6.8
 
-- NX-OS 9000v (local laptop) : 9.2.3
+- NX-OS 9000v (local laptop) : 7.0.3.I7.6
 
 - NX-OS 9000v (DEVNET Sandbox "Open NX-OS with Nexus 9Kv") : 9.2.1
-
