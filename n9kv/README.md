@@ -2,10 +2,10 @@
 
 ## Nexus 9000v Vagrant Box
 
-Download **nxosv-final.9.2.3.box** from cisco.com to this directory
+Download **nxosv-final.7.0.3.I7.6.box** from cisco.com to this directory
 
 ```bash
-vagrant box add base nxos.9.2.3.box
+vagrant box add base nxosv-final.7.0.3.I7.6.box
 vagrant up
 ```
 
