@@ -4,14 +4,22 @@
 
 Download **nxosv-final.9.2.3.box** from cisco.com to this directory
 
-    vagrant box add base nxos.9.2.3.box
-    vagrant up
+```bash
+vagrant box add base nxos.9.2.3.box
+vagrant up
+```
 
 ## Configure the NXOSv image for NXAPI and boot variable
 
-    printf "conf t\nfeature nxapi\nend" | vagrant ssh
-    printf "conf t\nboot nxos bootflash:nxos.9.2.3.bin\nend" | vagrant ssh
-    printf "conf t\ncopy run start\nexit" | vagrant ssh
+```bash
+bash -x enable_nxapi.sh
+```
+
+## For this workshop, you need to enable icam
+
+```bash
+python3 setup_nxos.py
+```
 
 ## Cautions
 
