@@ -1,4 +1,5 @@
 # Demo scripts showcasing NXAPI functionality
+
 The following functionality is demonstrated in this directory tree:
 - step-01 : iCAM metric generation
   - basic HTTP request formation
@@ -20,4 +21,3 @@ The following functionality is demonstrated in this directory tree:
   - Deploy Grafana container
   - Configure Grafana to leverage Prometheus
   - Configure dashboards
-
