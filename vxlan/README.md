@@ -20,10 +20,13 @@ versions of Ansible, this set of plays may need some adaptation.
 
 ## Requirements
 
-Python virtual environment with Python 3.6, Ansible 
+Python virtual environment with Python 3.6, Ansible 2.8.  All of the required
+Python modules for this workshop are found in the [requirements](../requirements.txt)
+file.
 
+Instructions for Anaconda Python
 ```bash
 conda create -n devwks2594 python=3.6
 conda activate devwks2594
-pip install ansible
+pip install -r requirements.txt
 ```
