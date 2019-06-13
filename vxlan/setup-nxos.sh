@@ -8,9 +8,8 @@ for host in $(awk -F: '/ansible_host/ { print $2;}' hosts.sandbox.yml); do
      echo
      printf "configure terminal\n
              feature nxapi\n
-             nxapi http port 80\n
              feature icam\n
-             boot nxos bootflash:nxos.9.2.1.bin\n
+             boot nxos bootflash:nxos.7.0.3.I7.6.bin\n
              end\n
              copy running-config startup-config\n
              exit\n" | ssh admin@${host}
