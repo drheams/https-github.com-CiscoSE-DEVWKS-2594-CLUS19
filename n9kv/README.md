@@ -5,7 +5,7 @@
 Download **nxosv-final.7.0.3.I7.6.box** from cisco.com to this directory
 
 ```bash
-vagrant box add base nxosv-final.7.0.3.I7.6.box
+vagrant box add nxosv-7.0.3.I7.6 ~/workspace/nxosv-final.7.0.3.I7.6.box
 vagrant up
 ```
 
