@@ -1,15 +1,20 @@
 # Overview
 
 This stage extends the script functionality to:
+
 - Collect metrics related to VXLAN IP routes
 - Leverage code abstractions and environment variables from step-03
 
 ## VXLAN Fabric
 
 Leverages the "Open NX-OS with Nexus 9Kv" DEVNET Sandbox found at
-[http://devnetsandbox.cisco.com/]
+[http://devnetsandbox.cisco.com/].  That Sandbox is configured to be
+a VXLAN EVPN fabric using [Ansible](https://www.ansible.com/).
+Instructions and playbooks for this configuration are found in the
+[VXLAN](../../vxlan/README.md) directory.
 
 ## Network Communication Diagram
+
 <img src='images/Step04-Network-Communication.png' width='400px'>
 
 ## Containerization Steps
